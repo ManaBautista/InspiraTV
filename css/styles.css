@@ -9,68 +9,53 @@ body{
     margin: 0;
     scroll-behavior: 0;
 }
-
-.box00{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
 .box01{
     height: auto;
     margin: 0;
     padding: 0;
-}
-.box02{
-    height: 5rem;
-    margin-top: 4rem;
-    padding: 4rem;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    color: aliceblue;
-}
-.box03{
-    height: 20rem;
-    align-items: center;
-    justify-content: center;
-}
-.box04{
-    height: 10rem;
-    padding: 1rem;
-}
-.video {
-    width: 100%;
-    height: 40rem;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
 }
 .box04{
     width: 100%;
-    height: auto;
     margin-top: 5rem;
     color: aliceblue;
     align-items: center;
     align-content: center;
     text-align: center;
     justify-content: center;
+    height: 10rem;
+    padding: 1rem;
 }
 .box05{
-    width: 52%;
+    width: 70%;
     height: auto;
-}
-.line{
-    width: 90%;
-    height: 1rem;
-    background-color: rgba(240, 248, 255, 0.63);
-    float: initial;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .navbar{
     align-items: center;
     justify-content: center;
     align-content: center;
 }
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
 .filas{
-    padding-left: 2rem;
+    padding-left: 8%;
+    width: 100%;
+    padding-right: 6%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .card{
     padding: 1rem;
@@ -78,7 +63,7 @@ body{
     margin: 1rem;
     background-color: rgba(0, 255, 255, 0);
     border-radius: 5%;
-    width: 20rem;
+    width: 25rem;
 }
 .footer{
     background-color: rgba(240, 248, 255, 0.39);
@@ -87,9 +72,12 @@ body{
 .caja01{
     background-color: rgba(128, 255, 0, 0);
     width: 100%;
-    height: 20rem;
+    height: 50rem;
     align-items: center;
     align-content: center;
     text-align: center;
     justify-content: center;
+}
+.comercial{
+    height: 100vh;
 }
